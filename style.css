@@ -276,6 +276,7 @@ img.fcbk, img.spotify, img.windows {
 
 #footer {
   
+  clear: both;
   border-top: #35424a 2px solid;
   
  }
