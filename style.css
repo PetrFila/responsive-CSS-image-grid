@@ -91,12 +91,11 @@ h1 {
 
 /* Sidebar */
   aside {
-    float: left;
-    width: none;
-	margin: 2% 1% 30% 25%;
-	
-  
+	text-align: center;
+	padding-bottom: 5%;
   }
+  aside .icon { display: inline-block; vertical-align: middle; margin-right: 3%; }
+  aside h1 { display: inline-block; vertical-align: middle; }
 
 /* Main section area */  
 
@@ -105,7 +104,7 @@ section.content {
 	
 }
 
-.aboutHeader, .skillsHeader, .myWorkHeader, .contactHeader {
+.aboutHeader, .skillsHeader, .contactHeader {
   margin-right: 15%;
   padding-bottom: 10%;
 }
